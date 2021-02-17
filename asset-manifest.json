@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/typing-trainer/static/css/main.6796e19a.chunk.css",
+    "main.js": "/typing-trainer/static/js/main.05eaa452.chunk.js",
+    "main.js.map": "/typing-trainer/static/js/main.05eaa452.chunk.js.map",
+    "runtime-main.js": "/typing-trainer/static/js/runtime-main.b6cd5745.js",
+    "runtime-main.js.map": "/typing-trainer/static/js/runtime-main.b6cd5745.js.map",
+    "static/js/2.72b565f6.chunk.js": "/typing-trainer/static/js/2.72b565f6.chunk.js",
+    "static/js/2.72b565f6.chunk.js.map": "/typing-trainer/static/js/2.72b565f6.chunk.js.map",
+    "static/js/3.55eaa028.chunk.js": "/typing-trainer/static/js/3.55eaa028.chunk.js",
+    "static/js/3.55eaa028.chunk.js.map": "/typing-trainer/static/js/3.55eaa028.chunk.js.map",
+    "index.html": "/typing-trainer/index.html",
+    "static/css/main.6796e19a.chunk.css.map": "/typing-trainer/static/css/main.6796e19a.chunk.css.map",
+    "static/js/2.72b565f6.chunk.js.LICENSE.txt": "/typing-trainer/static/js/2.72b565f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6cd5745.js",
+    "static/js/2.72b565f6.chunk.js",
+    "static/css/main.6796e19a.chunk.css",
+    "static/js/main.05eaa452.chunk.js"
+  ]
+}
