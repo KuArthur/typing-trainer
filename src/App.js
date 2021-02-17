@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import {React,useEffect,useState} from 'react';
+
+import './App.scss';
+
+import Text from './Components/Text/Text';
 
 function App() {
+  
+  const [text,setText] = useState('');
+
+  useEffect(() => {
+    const fetchGetText = async () => {
+      const response = await fetch('https://baconipsum.com/api/?type=all-meat&paras=2&start-with-lorem=1')
+      const text = await response.json()
+
+      setText(text.join(''));
+    }
+
+    fetchGetText()
+    
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = 'App'>
+      <div className = 'TypingTrainer'>
+        <Text text = {text}/>
+      </div>
+      
     </div>
   );
 }
